@@ -19,3 +19,11 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+'''
+manage.py is automatically created in each Django project. 
+It does the same thing as django-admin but also sets the DJANGO_SETTINGS_MODULE environment variable 
+so that it points to your project’s settings.py file.
+https://docs.djangoproject.com/en/2.2/intro/tutorial01/
+https://subscription.packtpub.com/book/web_development/9781787286214/1/ch01lvl1sec11/the-core-app
+'''
