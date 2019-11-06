@@ -22,6 +22,10 @@ class UserAdmin(BaseUserAdmin):
     # therefore we can create a new user with email and password
     add_fieldsets = (
         (None, {
+            #Two useful classes defined by the default admin site stylesheet are collapse and wide. 
+            #Fieldsets with the collapse style will be initially collapsed in the admin and 
+            #replaced with a small “click to expand” link. Fieldsets with the wide style will 
+            #be given extra horizontal space.
             'classes': ('wide',),
             'fields': ('email', 'password1', 'password2')
         }),
